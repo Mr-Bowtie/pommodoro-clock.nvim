@@ -231,7 +231,7 @@ M.say_event = function(type)
 end
 
 M.say = function(text)
-  os.execute('spd-say -l en -t female3 "' .. text .. '"')
+  os.execute('say "' .. text .. '"')
 end
 
 return M
