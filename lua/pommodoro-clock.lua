@@ -19,7 +19,7 @@ M.config = {}
 function M.defaults()
   local defaults = {
     modes = {
-      ["work"] = { "POMMODORO", 25 },
+      ["work"] = { "pomodoro", 25 },
       ["short_break"] = { "SHORT BREAK", 5 },
       ["long_break"] = { "LONG BREAK", 30 },
     },
